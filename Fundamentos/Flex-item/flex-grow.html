@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo-item.css">
+    <title>Fundamentos Flex-Grow</title>
+</head>
+<body>
+    <section>
+        <h2>flex-grow: 0;</h2>
+        <div class="row wrap">
+            <div class="fg0" >1</div>
+            <div class="fg0" >2</div>
+            <div class="fg0" >3</div>
+        </div>
+        <h2>flex-grow: 1;</h2>
+        <div class="row wrap">
+            <div class="fg1" >1</div>
+            <div class="fg1" >2</div>
+            <div class="fg1" >3</div>
+        </div>
+        <h2>flex-grow: 1; // Com conteúdo diferente</h2>
+        <div class="row wrap">
+            <div class="fg1" >1</div>
+            <div class="fg1" >222222</div>
+            <div class="fg1" >3</div>
+        </div>
+        <h2>flex-grow: (misturando);</h2>
+        <div class="row wrap">
+            <div class="fg0" >1</div>
+            <div class="fg1" >2</div>
+            <div class="fg2" >3</div>
+        </div>
+    </section>
+</body>
+</html>
