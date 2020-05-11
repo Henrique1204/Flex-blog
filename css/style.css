@@ -81,3 +81,17 @@ img{
 .menu a:hover{
     color: #122AB2;
 }
+
+/* Introdução */
+
+.introducao{
+    max-width: 960px;
+    padding: 0px 10px;
+    margin: 60px auto;
+    font-size: 3em;
+    line-height: 1;
+}
+
+.introducao .quebra-linha{
+    display: block;
+}
