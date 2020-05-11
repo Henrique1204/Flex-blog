@@ -26,3 +26,58 @@ img{
 *{
     box-sizing: border-box;
 }
+
+/* Header */
+.super-info-bg{
+    padding-top: 10px;
+    color: #fff;
+    background-color: #122AB2;
+}
+
+.super-info{
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.super-info > *{
+    margin: 0 10px 10px;
+}
+
+.header-bg{
+    background-color: #2C70FF;
+}
+
+.menu{
+    max-width: 960px;
+    padding: 15px 0;
+    margin: 0 auto;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-logo a{
+    margin: 0 10px;
+    font-size: 2.25em;
+    font-weight: bold;
+}
+
+.menu-nav ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-nav a{
+    padding: 10px;
+    font-size: 1.25em;
+    display: block;
+}
+
+.menu a:hover{
+    color: #122AB2;
+}
