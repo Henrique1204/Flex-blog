@@ -30,7 +30,7 @@ img{
 /* Header */
 .super-info-bg{
     padding-top: 10px;
-    color: #fff;
+    color: #FFF;
     background-color: #122AB2;
 }
 
@@ -54,7 +54,7 @@ img{
     max-width: 960px;
     padding: 15px 0;
     margin: 0 auto;
-    color: #fff;
+    color: #FFF;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -83,7 +83,6 @@ img{
 }
 
 /* Introdução */
-
 .introducao{
     max-width: 960px;
     padding: 0px 10px;
@@ -98,7 +97,6 @@ img{
 
 
 /* Sobre */
-
 .sobre{
     max-width: 960px;
     padding: 60px 0;
@@ -135,7 +133,6 @@ img{
 }
 
 /* Produtos */
-
 .produtos{
     margin: 60px auto;
     max-width: 960px;
@@ -174,4 +171,93 @@ img{
 
 .azul{
     border-top: 8px solid #66D9EB;
+}
+
+/* Preços */
+.precos{
+    padding: 60px;
+    background-color: #F7F7F7;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.preco-item{
+    padding: 20px;
+    border: 4px solid #FFF;
+    margin: 10px;
+    flex: 1 1 260px;
+}
+
+.preco-item h2{
+    margin-top: 20px;
+    font-size: 3em;
+    text-align: center;
+    color: #A4A4A4;
+}
+
+.preco-item p{
+    max-width: 300px;
+    padding: 10px 0 5px;
+    border-top: 4px solid #FFF;
+    border-bottom: 4px solid #FFF;
+    margin: 20px auto;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.preco-item sup{
+    font-size: 1.5rem;
+}
+
+.preco-item ul{
+    max-width: 300px;
+    margin: 20px auto;
+    font-size: 1.25em;
+    font-style: italic;
+    color: #7C7C7C;
+}
+
+.preco-item li{
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.preco-item li::after{
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #2C70FF;
+    display: block;
+}
+
+.preco-item a{
+    max-width: 300px;
+    padding: 15px 0;
+    border: 4px solid;
+    margin: 20px auto;
+    font-size: 2.25em;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222;
+    display: block;
+}
+
+@media (max-width: 800px){
+    .precos{
+        padding: 60px 10px;
+    }
+
+    .precos>.preco-item:nth-child(2){
+        order: -2;
+    }
+
+    .precos>.preco-item:nth-child(3){
+        order: -1;
+    }
 }
